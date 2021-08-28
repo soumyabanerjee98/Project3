@@ -1,0 +1,259 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bold{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 28vw;
+    margin-top: 4vh;
+}
+
+
+.item2{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.card{
+    height: 50px;
+    width: 250px;
+    border: 1px solid #f22c00;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 15px;
+    margin-left: -1vw;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.ht{
+    color: grey;
+}
+.ht1{
+    color: #f22c00;
+}
+
+.hr{
+    margin-left: 20%;
+}
+
+.lt{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: line-through;
+    color: #f22c00;
+}
+
+.ct{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.fas{
+    font-size: 40px;
+    color: #f22c00;
+    
+}
+
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbut{
+    font-size: 40px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+}
+
+.back{
+    margin-top: -71px;
+    margin-left: 720px;
+}
+
+.todocard{
+    font-size: 40px;
+    text-align: center;
+    height: 350px;
+    width: 450px;
+    border: 1px solid #f22c00;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 15px;
+    margin-left: 730px;
+    margin-top: 50px;
+    padding-top: 15px;
+}
+
+.addcard{
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    height: 250px;
+    width: 450px;
+    color: #f22c00;
+    border: 1px solid #f22c00;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 730px;
+    margin-top: 300px;
+}
+
+.addbutton{
+    padding-left: 320px;
+    padding-top: 40px;
+}
+
+.hpbg{
+    background-image: url(./image.jpg);
+    z-index: -1;
+}
+
+.ibg{
+    background-image: url(./image1.jpg);
+    background-repeat:no-repeat;
+    z-index: -1;
+}
+
+input[type=text]{
+    font-size: 30px;
+    height: 50px;
+    width: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    border: 1px solid #f22c00;
+    box-shadow: 5px 5px 10px grey;
+}
+
+input[type=button]{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    margin-top: 50px;
+    background-color: #f22c00;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 380px) {
+    .parent{
+        display: grid;
+        grid-template-columns: 0px 300px 0px;
+        margin-left: 2vw;
+        margin-top: 1vh;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .item2{
+        margin-top: 35px;
+        margin-left: 285px;
+    }
+    .card{
+        width: 250px;
+        border: 1px solid #f22c00;
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 15px;
+        margin-left: 9vw;
+        margin-bottom: 15px;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .heading{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 32px;
+        background-color: white;
+        margin-top: 250px;
+    }
+    .back{
+        margin-top: -60px;
+        margin-left: 10px;
+    }
+    .todocard{
+        font-size: 30px;
+        text-align: center;
+        height: 350px;
+        width: 250px;
+        border: 1px solid #f22c00;
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 15px;
+        margin-left: 50px;
+        margin-top: 80px;
+        padding-top: 15px;
+    }
+    .addbutton{
+        padding-left: 150px;
+        padding-top: 110px;
+    }
+    .addcard{
+        padding-top: 25px;
+        font-size: 20px;
+        text-align: center;
+        height: 200px;
+        width: 300px;
+        color: #f22c00;
+        border: 1px solid #f22c00;
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 25px;
+        margin-top: 200px;
+    }
+    input[type=text]{
+        font-size: 30px;
+        height: 40px;
+        width: 250px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 30px;
+        border: 1px solid #f22c00;
+        box-shadow: 5px 5px 10px grey;
+    }
+    input[type=button]{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+        background-color: #f22c00;
+        color: white;
+        border: 0;
+        border-radius: 50px;
+    }
+    .hpbg{
+        background-image: url(./imagep.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    .ibg{
+        background-image: url(./image1p.jpg);
+        background-repeat:no-repeat;
+        z-index: -1;
+    }
+}
