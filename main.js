@@ -18,10 +18,12 @@ function time() {
      aMpM.innerHTML     =    `${hr >= 12 ? 'PM' : 'AM'}`
 }
 setInterval(time, 1000);
-// clock section end
+// Clock section end
 
 
+// Wish start
 
+// Wish end
 
 
 

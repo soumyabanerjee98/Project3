@@ -201,7 +201,7 @@ opacity: 1;
     opacity: 1;
     padding: 1rem;
    z-index: 1;
-    font-family: 'Pacifico', cursive;
+   font-family: 'Kanit', sans-serif;
 
 }
 
@@ -246,7 +246,7 @@ text-align: left;
 
 opacity: 1;
 padding: 2rem;
-font-family: 'Pacifico', cursive;
+font-family: 'Kanit', sans-serif;
 
 }
 
@@ -275,7 +275,7 @@ background: transparent linear-gradient(-113deg, #6E54EC 0%, #CB52F8 40%, #FC5EF
 .wakeup-time{
     font-size: 1.3rem;
     color: var(--bg-color-dark);
-padding-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
    font-weight: 500;
    display: flex;
    justify-content: space-between;
