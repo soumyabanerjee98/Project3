@@ -22,7 +22,24 @@ setInterval(time, 1000);
 
 
 // Wish start
-
+const wish = document.querySelector('.wish-heading-text');
+  var d1 = new Date();
+  var hr1 = d1.getHours();
+    if(hr1>5 && hr1<=10){
+      wish.innerText = "Good Morning!";
+    }
+    else if(hr1>10 && hr1<=13){
+      wish.innerText = "Good Noon!";
+    }
+    else if(hr1>13 && hr<=18){
+      wish.innerText = "Good Afternoon!";
+    }
+    else if(hr1>18 && hr<=20){
+      wish.innerText = "Good Evening!";
+    }
+    else{
+      wish.innerText = "Good Night!";
+    }
 // Wish end
 
 

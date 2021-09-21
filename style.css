@@ -239,14 +239,14 @@ text-align: left;
 align-items:center ;
 
 }
-.wish-heading div{
+.wish-heading-text{
     font-size: 30px;
-color: white;
-text-align: left;
+    color: white;
+    text-align: left;
 
-opacity: 1;
-padding: 2rem;
-font-family: 'Kanit', sans-serif;
+    opacity: 1;
+    padding: 2rem;
+    font-family: 'Kanit', sans-serif;
 
 }
 
