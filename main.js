@@ -19,8 +19,26 @@ function time() {
 }
 setInterval(time, 1000);
 // Clock section end
-
-
+// message start
+const message = document.querySelector('.message');
+  var d1 = new Date();
+  var hr1 = d1.getHours();
+    if(hr1>5 && hr1<=10){
+      message.innerText = "Get up and have breakfast !!";
+    }
+    else if(hr1>10 && hr1<=13){
+      message.innerText = "Study time !!";
+    }
+    else if(hr1>13 && hr<=18){
+      message.innerText = "Let's Have Some Lunch !!";
+    }
+    else if(hr1>18 && hr<=20){
+      message.innerText = "Snacks and tea time !!";
+    }
+    else{
+      message.innerText = "Have dinner and go to sleep !!";
+    }
+// message end
 // Wish start
 const wish = document.querySelector('.wish-heading-text');
   var d1 = new Date();
