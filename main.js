@@ -29,10 +29,10 @@ const message = document.querySelector('.message');
     else if(hr1>10 && hr1<=13){
       message.innerText = "Study time !!";
     }
-    else if(hr1>13 && hr<=18){
+    else if(hr1>13 && hr1<=18){
       message.innerText = "Let's Have Some Lunch !!";
     }
-    else if(hr1>18 && hr<=20){
+    else if(hr1>18 && hr1<=20){
       message.innerText = "Snacks and tea time !!";
     }
     else{
@@ -41,18 +41,18 @@ const message = document.querySelector('.message');
 // Message end
 // Wish start
 const wish = document.querySelector('.wish-heading-text');
-  var d1 = new Date();
-  var hr1 = d1.getHours();
-    if(hr1>5 && hr1<=10){
+  var d2 = new Date();
+  var hr2 = d2.getHours();
+    if(hr2>5 && hr2<=10){
       wish.innerText = "Good Morning!";
     }
-    else if(hr1>10 && hr1<=13){
+    else if(hr2>10 && hr2<=13){
       wish.innerText = "Good Noon!";
     }
-    else if(hr1>13 && hr<=18){
+    else if(hr2>13 && hr2<=18){
       wish.innerText = "Good Afternoon!";
     }
-    else if(hr1>18 && hr<=20){
+    else if(hr2>18 && hr2<=20){
       wish.innerText = "Good Evening!";
     }
     else{
