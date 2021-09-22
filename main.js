@@ -19,7 +19,7 @@ function time() {
 }
 setInterval(time, 1000);
 // Clock section end
-// message start
+// Message start
 const message = document.querySelector('.message');
   var d1 = new Date();
   var hr1 = d1.getHours();
@@ -38,7 +38,7 @@ const message = document.querySelector('.message');
     else{
       message.innerText = "Have dinner and go to sleep !!";
     }
-// message end
+// Message end
 // Wish start
 const wish = document.querySelector('.wish-heading-text');
   var d1 = new Date();
@@ -59,12 +59,3 @@ const wish = document.querySelector('.wish-heading-text');
       wish.innerText = "Good Night!";
     }
 // Wish end
-
-
-
-
-
-
-
-
-
