@@ -3,6 +3,9 @@ const hourTime = document.querySelector('.time-hour');
 const minTime = document.querySelector('.time-min');
 const secTime = document.querySelector('.time-sec');
 const aMpM = document.querySelector('#am-time');
+const message = document.querySelector('.message');
+const wish = document.querySelector('.wish-heading-text');
+const image = document.querySelector('.image');
 
 function addZero(timeFrame) {
     return timeFrame < 10 ? '0'.concat(timeFrame) : timeFrame
@@ -19,43 +22,27 @@ function time() {
 }
 setInterval(time, 1000);
 // Clock section end
-// Message start
-const message = document.querySelector('.message');
+// Change start
   var d1 = new Date();
   var hr1 = d1.getHours();
-    if(hr1>5 && hr1<=10){
+    if(hr1>=6 && hr1<12){
       message.innerText = "Get up and have breakfast !!";
+      wish.innerText = "Good Morning!";
+      image.innerHTML = '<img src="./img/Sunny day-bro.svg" alt="">';
     }
-    else if(hr1>10 && hr1<=13){
-      message.innerText = "Study time !!";
-    }
-    else if(hr1>13 && hr1<=18){
+    else if(hr1>=12 && hr1<18){
       message.innerText = "Let's Have Some Lunch !!";
+      wish.innerText = "Good Noon!";
+      image.innerHTML = '<img src="./img/Pizza sharing-cuate.svg" alt="">';
     }
-    else if(hr1>18 && hr1<=20){
-      message.innerText = "Snacks and tea time !!";
+    else if(hr1>=18 && hr1<20){
+      message.innerText = "Let's Have Some Lunch !!";
+      wish.innerText = "Good Evening!";
+      image.innerHTML = '<img src="./img/Pizza sharing-cuate.svg" alt="">';
     }
     else{
       message.innerText = "Have dinner and go to sleep !!";
-    }
-// Message end
-// Wish start
-const wish = document.querySelector('.wish-heading-text');
-  var d2 = new Date();
-  var hr2 = d2.getHours();
-    if(hr2>5 && hr2<=10){
-      wish.innerText = "Good Morning!";
-    }
-    else if(hr2>10 && hr2<=13){
-      wish.innerText = "Good Noon!";
-    }
-    else if(hr2>13 && hr2<=18){
-      wish.innerText = "Good Afternoon!";
-    }
-    else if(hr2>18 && hr2<=20){
-      wish.innerText = "Good Evening!";
-    }
-    else{
       wish.innerText = "Good Night!";
+      image.innerHTML = '<img src="./img/Sleep analysis-cuate.svg" alt="">';
     }
-// Wish end
+// Change end

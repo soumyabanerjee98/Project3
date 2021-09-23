@@ -138,7 +138,7 @@ body{
     position: relative;
 }
 .box-2-image img{
-    background: #FFFFFF url('img/Pizza\ sharing-cuate.svg') 0% 0% no-repeat padding-box;
+    background: #FFFFFF no-repeat padding-box;
     opacity: 1;
 }
 #wake-up img{
